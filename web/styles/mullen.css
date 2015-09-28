@@ -1,11 +1,11 @@
 body{
     margin:0 auto;
     width:90%;
+    max-width: 46em;
 }
 
-
-#education h2, #techQual h2, #internships h2, #work h2, #lead h2{
-    font-size:1.3em;
+#education h2, #techQual h2, #internships h2, #work h2{
+    font-size:1.6em;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -16,14 +16,16 @@ h1{
 #headList li{
     margin: 0 auto;
     display:inline;
-    margin-left: 1em;
-    margin-right:1em;
+    margin-left:.2em;
+    margin-right:.2em;
+    list-style-type: circle;
 }
-ul{
+headList{
     margin:0 auto;
     padding-left:0%;
     padding-right:0%;
     width:75%;
+
 }
 #info{
     text-align: center;
@@ -33,11 +35,11 @@ div.date {
     float:right;
 }
 
-div.bold{
+.bold{
     font-weight: bold;
     display: inline;
 }
 
-.ital{
+#major{
     font-style: italic
 }
