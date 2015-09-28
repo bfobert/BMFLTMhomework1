@@ -1,6 +1,6 @@
 body{
     margin:0 auto;
-    width:90%;
+    width:100%;
     max-width: 46em;
 }
 
@@ -18,7 +18,6 @@ h1{
     display:inline;
     margin-left:.2em;
     margin-right:.2em;
-    list-style-type: circle;
 }
 headList{
     margin:0 auto;
@@ -33,6 +32,7 @@ headList{
 
 div.date {
     float:right;
+    margin-top:-2.3em;
 }
 
 .bold{
@@ -51,4 +51,19 @@ div.date {
 }
 #lead{
     margin-bottom: 8%;
+}
+@media screen and (max-width: 553px){
+    div.date{
+        float:none;
+        margin-top: 0em;
+    }
+/*    ul.headList li:nth-child (4){
+    display:none;
+    }*/
+    #headList .extra{
+        display:none;
+    }
+    #headList .down{
+        display:block;
+    }
 }
