@@ -4,7 +4,7 @@ body{
     max-width: 46em;
 }
 
-#education h2, #techQual h2, #internships h2, #work h2{
+#education h2, #techQual h2, #internships h2, #work h2, #lead h2{
     font-size:1.6em;
     font-weight: bold;
     text-decoration: underline;
@@ -42,4 +42,13 @@ div.date {
 
 #major{
     font-style: italic
+}
+.ital{
+    font-style: italic;
+}
+#red{
+    color: red;
+}
+#lead{
+    margin-bottom: 8%;
 }
