@@ -4,8 +4,8 @@ body{
 }
 
 
-#education h2, #techQual h2, #internships h2{
-    font-size:1.6em;
+#education h2, #techQual h2, #internships h2, #work h2, #lead h2{
+    font-size:1.3em;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -38,6 +38,6 @@ div.bold{
     display: inline;
 }
 
-#major{
+.ital{
     font-style: italic
 }
